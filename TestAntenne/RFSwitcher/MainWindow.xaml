@@ -1,0 +1,17 @@
+﻿<Window x:Class="RFSwitcher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock Height="25" HorizontalAlignment="Left" Margin="126,14,0,0" Name="textBlockReaderName" Text="" VerticalAlignment="Top" Width="270" />
+        <Label Content="Reader" Height="30" HorizontalAlignment="Left" Margin="12,9,0,0" Name="label1" VerticalAlignment="Top" Width="117" />
+        <Button Content="Stop Rf" Height="26" HorizontalAlignment="Left" Margin="57,110,0,0" Name="buttonStopRf" VerticalAlignment="Top" Width="141" Click="buttonStopRf_Click" />
+        <Label Content="ReaderState" Height="30" HorizontalAlignment="Left" Margin="12,54,0,0" Name="label2" VerticalAlignment="Top" Width="117" />
+        <TextBlock Height="25" HorizontalAlignment="Left" Margin="126,54,0,0" Name="textBlockReaderState" Text="" VerticalAlignment="Top" Width="270" />
+        <Button Content="Start Rf" Height="26" HorizontalAlignment="Left" Margin="269,110,0,0" Name="buttonStartRf" VerticalAlignment="Top" Width="141" Click="buttonStartRf_Click" />
+        <ListBox Height="162" HorizontalAlignment="Left" Margin="12,143,0,0" Name="listBoxLog" VerticalAlignment="Top" Width="481" />
+        <Button Content="Serial" Height="26" HorizontalAlignment="Left" Margin="402,53,0,0" Name="buttonReadSerial" VerticalAlignment="Top" Width="76" Click="buttonReadSerial_Click" />
+        <Button Content="Slot" Height="23" HorizontalAlignment="Left" Margin="404,18,0,0" Name="buttonReadCurrentSlot" VerticalAlignment="Top" Width="72" Click="buttonReadCurrentSlot_Click" />
+    </Grid>
+</Window>
